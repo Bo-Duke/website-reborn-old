@@ -4,6 +4,7 @@ import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 import { linkTo } from '@storybook/addon-links'
 import backgrounds from '@storybook/addon-backgrounds'
+import centered from '@storybook/addon-centered'
 
 import App from '../src/App'
 import Card from '../src/Components/Card'
@@ -20,12 +21,24 @@ storiesOf('Button', module)
   ))
 
 storiesOf('Card', module)
+  .addDecorator(centered)
   .addDecorator(
     backgrounds([
-      { name: 'twitter', value: '#00aced', default: true },
-      { name: 'facebook', value: '#3b5998' },
+      {
+        name: 'blue hue',
+        value: 'linear-gradient(135deg, #ABDCFF 10%, #0396FF 100%)',
+        default: true,
+      },
+      {
+        name: 'red hue',
+        value: 'linear-gradient(135deg, #FEB692 10%, #EA5455 100%)',
+      },
+      {
+        name: 'purple hue',
+        value: 'linear-gradient(135deg, #CE9FFC 10%, #7367F0 100%)',
+      },
     ]),
   )
-  .add('blank and simple', () => <Card />)
+  .add('blank and simple', () => <Card>Testing</Card>)
 
 storiesOf('Parallax', module).add('Demo', () => <ParallaxDemo />)
