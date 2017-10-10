@@ -3,13 +3,13 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 import { linkTo } from '@storybook/addon-links'
+import backgrounds from '@storybook/addon-backgrounds'
+
 import App from '../src/App'
+import Card from '../src/Components/Card'
+import ParallaxDemo from '../src/ParallaxDemo'
 
-import { Button, Welcome } from '@storybook/react/demo'
-
-storiesOf('Welcome', module).add('to Storybook', () => (
-  <Welcome showApp={linkTo('Button')} />
-))
+import { Button } from '@storybook/react/demo'
 
 storiesOf('Button', module)
   .add('with text', () => (
@@ -19,4 +19,13 @@ storiesOf('Button', module)
     <Button onClick={action('clicked')}>😀 😎 👍 💯</Button>
   ))
 
-storiesOf('create-react-app', module).add('App', () => <App />)
+storiesOf('Card', module)
+  .addDecorator(
+    backgrounds([
+      { name: 'twitter', value: '#00aced', default: true },
+      { name: 'facebook', value: '#3b5998' },
+    ]),
+  )
+  .add('blank and simple', () => <Card />)
+
+storiesOf('Parallax', module).add('Demo', () => <ParallaxDemo />)
