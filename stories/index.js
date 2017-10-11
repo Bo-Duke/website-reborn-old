@@ -6,21 +6,25 @@ import { linkTo } from '@storybook/addon-links'
 import backgrounds from '@storybook/addon-backgrounds'
 import centered from '@storybook/addon-centered'
 
-import App from '../src/App'
+// Components
 import Card from '../src/Components/Card'
+import MarkdownRenderer from '../src/Components/MarkdownRenderer'
+// Demos
+import App from '../src/App'
 import ParallaxDemo from '../src/ParallaxDemo'
 
 import { Button } from '@storybook/react/demo'
 
-storiesOf('Button', module)
-  .add('with text', () => (
-    <Button onClick={action('clicked')}>Hello Button</Button>
-  ))
-  .add('with some emoji', () => (
-    <Button onClick={action('clicked')}>😀 😎 👍 💯</Button>
-  ))
+const markdown = `
+## Readme
 
-storiesOf('Card', module)
+This project was **bootstrapped** with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+Below you will find some *information* on how to perform common tasks.<br>
+You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+`
+
+storiesOf('Components', module)
   .addDecorator(centered)
   .addDecorator(
     backgrounds([
@@ -37,8 +41,13 @@ storiesOf('Card', module)
         name: 'purple hue',
         value: 'linear-gradient(135deg, #CE9FFC 10%, #7367F0 100%)',
       },
+      {
+        name: 'white',
+        value: '#ffffff',
+      },
     ]),
   )
-  .add('blank and simple', () => <Card>Testing</Card>)
+  .add('Card', () => <Card>Testing</Card>)
+  .add('Markdown', () => <MarkdownRenderer source={markdown} />)
 
-storiesOf('Parallax', module).add('Demo', () => <ParallaxDemo />)
+storiesOf('Demos', module).add('Parallax', () => <ParallaxDemo />)

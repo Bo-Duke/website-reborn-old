@@ -14,11 +14,17 @@ const StyledCard = styled.div`
   &:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
-  //   filter: blur(1px);
-  //   opacity: 0.8;
 
-  background-color: #ffffff;
+  background-color: ${props => props.theme.card.background};
 `
 const Card = props => <StyledCard>{props.children}</StyledCard>
+
+StyledCard.defaultProps = {
+  theme: {
+    card: {
+      background: '#ffffff',
+    },
+  },
+}
 
 export default Card
