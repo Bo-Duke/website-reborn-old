@@ -13,7 +13,7 @@ import MarkdownRenderer from '../src/Components/MarkdownRenderer'
 import App from '../src/App'
 import ParallaxDemo from '../src/ParallaxDemo'
 
-import { Button } from '@storybook/react/demo'
+import { ThemeProvider } from 'styled-components'
 
 const markdown = `
 ## Readme
@@ -23,6 +23,10 @@ This project was **bootstrapped** with [Create React App](https://github.com/fac
 Below you will find some *information* on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 `
+
+// const ThemeDecorator = storyFn => (
+//   <ThemeProvider theme={theme}>{storyFn()}</ThemeProvider>
+// )
 
 storiesOf('Components', module)
   .addDecorator(centered)

@@ -20,9 +20,15 @@ const AppHeader = styled.header`
   padding: 20px;
   color: white;
 `
-const AppWrap = styled.div`text-align: center;`
-const AppTitle = styled.h1`font-size: 1.5em;`
-const AppIntro = styled.p`font-size: large;`
+const AppWrap = styled.div`
+  text-align: center;
+`
+const AppTitle = styled.h1`
+  font-size: 1.5em;
+`
+const AppIntro = styled.p`
+  font-size: large;
+`
 
 class App extends Component {
   render() {

@@ -1,2 +1,2 @@
 import '@storybook/addon-backgrounds/register'
-import '@storybook/addon-centered'
+// import 'storybook-styled-components/register'
