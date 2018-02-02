@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import ReactMarkdown from 'react-markdown'
 import styled from 'styled-components'
 
@@ -26,6 +27,10 @@ StyledMarkdown.defaultProps = {
       linkVisited: '#b10dc9',
     },
   },
+}
+
+MarkdownRenderer.propTypes = {
+  source: PropTypes.string,
 }
 
 export default MarkdownRenderer
