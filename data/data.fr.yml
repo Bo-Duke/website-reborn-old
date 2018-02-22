@@ -1,0 +1,106 @@
+name: Maxime Bouveron
+bio:
+  short: Étudiant en informatique passionné par le front-end
+  long: Étudiant en M1 ICE de 21 ans, passionné par l'informatique depuis mon plus jeune âge, et notamment par le développement front-end, je suis toujours à experimenter de nouveaux outils et à commencer un nouveau projet.
+mail: maxime.bouveron@gmail.com
+job: Développeur front-end à CS
+study: M1 ICE
+localisation: Toulouse
+skills:
+  - name: HTML5
+    fa-name: html5
+    foregroundColor: white
+    backgroundColor: orange
+  - name: CSS
+    fa-name: css3
+    foregroundColor: white
+    backgroundColor: blue
+  - name: Javascript
+    experience: 
+    fa-name: js
+    foregroundColor: yellow
+    backgroundColor: black
+  - name: React
+    experience: 
+    fa-name: react
+    foregroundColor: white
+    backgroundColor: blue
+  - name: Angular 2
+    experience: 
+    fa-name: angular
+    foregroundColor: white
+    backgroundColor: red
+  - name: Vue.js
+    experience: 
+    fa-name: vuejs
+    foregroundColor: white
+    backgroundColor: green
+formations:
+  - name: Master ICE
+    nameShort: Master ICE
+    localisation: "UT2J: Université Toulouse Jean Jaurès (31)"
+    dateStart: 2017
+    dateEnd: 2018
+  - name: Licence MIAGE
+    nameShort: L3 MIAGE
+    localisation: "UT3 : Université Toulouse Paul Sabatier et UT1 : Université Toulouse Capitole (31)"
+    dateStart: 2016
+    dateEnd: 2018
+  - name: DUT Informatique (2 ans)
+    nameShort: DUT Info
+    localisation: "IUT Blagnac - Université Toulouse II Jean Jaurès, Blagnac (31)"
+    dateStart: 2014
+    dateEnd: 2016
+  - name: Baccalaureat Scientifique Option Sciences de l'Ingénieur, Spécialité Informatique et Sciences du Numérique 
+    nameShort: BAC S-SI
+    localisation: "Lycée Jean Durand, Castelnaudary (11)"
+    dateStart: 2012
+    dateEnd: 2014
+jobs:
+  - name: "Développeur front-end en alternance"
+    company: "CS: Communication & Systèmes"
+    localisation: Toulouse
+    description: |
+      "Développement d'un framework web open source pour le CNES
+      - Développement du front-end avec React / Redux
+      - Connexion avec le back-end en Java Spring"
+    dateStart: 2016
+    dateEnd: 2019
+  - name: "Stagiaire front-end (3 mois)"
+    company: Makina Corpus
+    localisation: Toulouse
+    description: |
+      "Création d'un IDE pour Plomino, un créateur d'application pour Plone.
+      - Conception de l'interface depuis une maquette
+      - Interface single-page en Angular 2
+      - Utilisation de Plone REST API"
+    dateStart: 2016
+    dateEnd: 2016
+links:
+  - name: GitHub
+    link: https://github.com/Bo-Duke
+    fa-name: github
+  - name: CodePen
+    link: https://codepen.io/Bo-Duke/
+    fa-name: codepen
+  - name: LinkedIn
+    link: https://www.linkedin.com/in/maximebouveron/
+    fa-name: linkedin
+  - name: Twitter
+    link: https://twitter.com/01BoDuke01
+
+aboutme: |
+  "## Passionné par l'informatique
+  Depuis mon plus jeune âge j'ai été passionné par l'informatique, j'ai réalisé quelques projets, seul ou en groupe et j'ai également découvert de nombreux outils très différents que j'ai pour certains maîtrisé. 
+  J'affectionne particulièrement le développement web front-end qui est en pleine évolution, j'essaie de toujours être au courant des nouvelles avancées et dès que je le peux, je teste un nouvel outil au travers d'un projet ou d'une simple expérience. Je m'intéresse également au développement back-end, souvent nécessaire dans mes différents projets. J'utilise macOS et Linux au quotidien et j'ai testé de nombreuses distributions différentes. Ceci m'a permis d'apprendre à maîtriser Unix ainsi que l'administration de serveurs. Une passion pour l'OS Android m'a permis de découvrir de nombreuses ROM alternative, une maîtrise et compréhension de l'OS ainsi que plus récemment un intérêt pour le développement sur cette plate-forme en natif mais surtout en hybride avec des outils comme ionic 2
+
+  ## Rubik's Cube
+  Le Rubik's Cube est présent dans ma vie depuis plusieurs années. Actuellement capable de résoudre un cube 3x3 en 30 secondes, je m'entraîne régulièrement afin de m'améliorer. 
+  J'aime également les puzzles autres que le simple cube 3x3 : plus grand nombre de rangées, formes variées etc... J'aime me retrouver face à un problème et trouver le moyen le plus simple et rapide pour le résoudre
+
+  ## Transports
+
+  ## Films / Séries
+  Je consomme un grand nombre de séries et films, au cinéma ou chez moi. Souvent je partage mon avis en écrivant des critiques sur SensCritique ou en postant des commentaires sur Betaseries
+
+  [Télécharger mon CV au format PDF](lien/vers/pdf/)"
