@@ -61,9 +61,9 @@ jobs:
     company: "CS: Communication & Systèmes"
     localisation: Toulouse
     description: |
-      "Développement d'un framework web open source pour le CNES
+      Développement d'un framework web open source pour le CNES
       - Développement du front-end avec React / Redux
-      - Connexion avec le back-end en Java Spring"
+      - Connexion avec le back-end en Java Spring
     dateStart: 2016
     dateEnd: 2019
   - name: "Stagiaire front-end (3 mois)"
@@ -90,7 +90,7 @@ links:
     link: https://twitter.com/01BoDuke01
 
 aboutme: |
-  "## Passionné par l'informatique
+  ## Passionné par l'informatique
   Depuis mon plus jeune âge j'ai été passionné par l'informatique, j'ai réalisé quelques projets, seul ou en groupe et j'ai également découvert de nombreux outils très différents que j'ai pour certains maîtrisé. 
   J'affectionne particulièrement le développement web front-end qui est en pleine évolution, j'essaie de toujours être au courant des nouvelles avancées et dès que je le peux, je teste un nouvel outil au travers d'un projet ou d'une simple expérience. Je m'intéresse également au développement back-end, souvent nécessaire dans mes différents projets. J'utilise macOS et Linux au quotidien et j'ai testé de nombreuses distributions différentes. Ceci m'a permis d'apprendre à maîtriser Unix ainsi que l'administration de serveurs. Une passion pour l'OS Android m'a permis de découvrir de nombreuses ROM alternative, une maîtrise et compréhension de l'OS ainsi que plus récemment un intérêt pour le développement sur cette plate-forme en natif mais surtout en hybride avec des outils comme ionic 2
 
@@ -103,4 +103,4 @@ aboutme: |
   ## Films / Séries
   Je consomme un grand nombre de séries et films, au cinéma ou chez moi. Souvent je partage mon avis en écrivant des critiques sur SensCritique ou en postant des commentaires sur Betaseries
 
-  [Télécharger mon CV au format PDF](lien/vers/pdf/)"
+  [Télécharger mon CV au format PDF](lien/vers/pdf/)
